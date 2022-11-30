@@ -1,0 +1,74 @@
+:root {
+  --primaryColor: #EB2027;
+  --accentColor: #5d6666;
+  --backgroundColor: #fff;
+  --aboutColor: #EEEEEE;
+}
+
+.tx-primary {
+  color: var(--primaryColor) !important;
+}
+
+.bag-primary {
+  background-color: var(--primaryColor) !important;
+}
+
+.border_primary {
+  border: var(--primaryColor) !important;
+}
+
+/* /////////////////////// */
+
+.tx-accentColor {
+  color: var(--accentColor) !important;
+}
+
+.bag-accentColor {
+  background-color: var(--accentColor) !important;
+}
+
+.border_accentColor {
+  border: var(--accentColor) !important;
+}
+
+/* /////////////////////// */
+
+.tx-backgroundColor {
+  color: var(--backgroundColor) !important;
+}
+
+.bag-backgroundColor {
+  background-color: var(--backgroundColor) !important;
+}
+
+.border_backgroundColor {
+  border: var(--backgroundColor) !important;
+}
+
+
+/* //////////////////////////// */
+
+.tx-aboutColor {
+  color: var(--aboutColor) !important;
+}
+
+.bag-aboutColor {
+  background-color: var(--aboutColor) !important;
+}
+
+.border_aboutColor {
+  border: var(--aboutColor) !important;
+}
+
+/* //////////////////////////// */
+
+.max-line-5 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  /* number of lines to show */
+  line-clamp: 5;
+  -webkit-box-orient: vertical;
+
+}

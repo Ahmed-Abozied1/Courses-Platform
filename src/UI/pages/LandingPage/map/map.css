@@ -1,0 +1,138 @@
+.subBtn{
+ margin-top: 60px;
+ margin-bottom: 20px;
+justify-content: center !important;
+text-align: center !important;
+align-items: center !important;
+
+}
+.subBtn:hover{
+background-color: rgb(213, 206, 206) !important;
+outline: none;
+color: red !important;
+}
+
+
+
+
+/* ******* */
+.counter{
+    font-size: 100px;
+       display:"flex" ;
+       color: black;
+    }
+
+.hero-image1{
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background: url("/public/assets/map.svg") center no-repeat;
+    background-size: cover;
+  
+  opacity: .8;
+  }
+  .hero-image1::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+     
+  } 
+  
+  .hero-content1{
+    position: relative;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0 auto;
+  }
+  .hero-content-inner1 h1{
+  font-size: 50px;
+  color: black;
+  margin-bottom: 30px;
+  }
+  .hero-content-inner1 p{
+  width: 75%;
+  font-size: 23px;
+  color: black;
+  font-weight: normal;
+  margin: 0 auto;
+  line-height: 30px;
+  margin-bottom: 30px;
+  }
+  @media (max-width:768px) {
+    .hero-content{
+      width: 100%;
+  padding: 0 30px;
+    }
+    .hero-content-inner1 h1{
+  font-size: 30px;
+    }
+    .hero-content-inner1 p{
+  width: 100%;
+  font-size: 13px;
+  line-height: 22px;
+    }
+  .counter{
+    width: 100%;
+  }
+  
+  }
+  @media (max-width:500px) {
+    .hero-content{
+      width: 100%;
+  padding: 0 20px;
+    }
+    .hero-content-inner1 h1{
+  font-size: 30px;
+    }
+    .hero-content-inner1 p{
+  width: 100%;
+  font-size: 13px;
+  line-height: 22px;
+    }
+  .counter{
+    width: 100%;
+  }
+  
+  }
+  @media (max-width:300) {
+    .hero-content{
+      width: 100%;
+  padding: 0 20px;
+    }
+    .hero-content-inner1 h1{
+  font-size: 30px;
+    }
+    .hero-content-inner1 p{
+  width: 100%;
+  font-size: 13px;
+  line-height: 22px;
+    }
+  .counter{
+    width: 100%;
+    font-size: 23px;
+  }
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
